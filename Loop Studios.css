@@ -1,0 +1,760 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+    font-size: 1.7rem;
+}
+
+nav ul li:first-child:hover {
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.close {
+    display: flex;
+    gap: 11rem;
+    align-items: center;
+}
+
+li.x {
+    margin-top: 0.7rem;
+}
+
+li.hamburger {
+    display: none;
+}
+
+/* nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+} */
+
+.explain {
+    color: white;
+    border: 1px white solid;
+    max-width: fit-content;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.VR {
+    margin: 5rem;
+}
+
+.VR-exlained {
+    position: absolute;
+    left: 40rem;
+    top: 50rem;
+    background-color: white;
+    padding: 5rem;
+    max-width: fit-content;
+}
+
+.our-creation {
+    margin: 5rem;
+}
+
+.our-creation-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/* Our Creations Starts */
+.deep-earth {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.deep-earth:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.night-arcade {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.night-arcade:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.soccer-team-vr {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.soccer-team-vr:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.the-grid {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.the-grid:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.from-up-above-vr {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.from-up-above-vr:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.pocket-borealis {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.pocket-borealis:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.the-curiosity {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.the-curiosity:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+.make-it-fisheye {
+    background-image: url(/Projects/loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    padding-left: 2.5rem;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: -1px;
+    padding-top: 20.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0rem;
+}
+
+.make-it-fisheye:hover {
+    opacity: 0.5;
+    transition-duration: 350ms;
+    cursor: pointer;
+    color: black;
+}
+
+/* Our Creations Ends */
+
+footer {
+    background-color: black;
+    margin-top: 15rem;
+    padding: 3rem 5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1 {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.img-2 {
+    display: none;
+}
+
+
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+}
+
+h2.header {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+}
+
+h2.mobile {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+}
+
+h2.creation {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    color: rgb(118, 118, 118);
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+a.mobile {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+a.btn {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1.5px black solid;
+    padding: 0.3rem 2.5rem;
+    letter-spacing: 2px;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1.5px black solid;
+    transition-duration: 350ms;
+}
+
+a.btn-2 {
+    display: none;
+}
+
+img.hamburger {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+li.menu-btn {
+    display: none;
+}
+
+li.mobile {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+ul.bottom {
+    display: flex;
+    gap: 2rem;
+}
+
+img.mobile {
+    display: none;
+}
+
+img.social {
+    height: 24px;
+    width: 24px;
+}
+
+img.social:hover {
+    border-bottom: 2.5px white solid;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-hero.jpg);
+        background-size: 100%;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 15rem;
+    }
+
+    nav {
+        margin-bottom: 10rem 1rem;
+    }
+
+    li.hamburger {
+        display: block;
+    }
+
+    li.mobile {
+        display: none;
+    }
+
+    .VR {
+        margin: 2rem 2rem;
+        text-align: center;
+    }
+
+    .VR-exlained {
+        position: initial;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .our-creation {
+        margin: 2rem 2rem;
+        text-align: center;
+    }
+
+    .offers {
+        display: block;
+        gap: 1.5rem;
+    }
+
+    /* Our Creations Starts */
+    .deep-earth {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .deep-earth:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .night-arcade {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .night-arcade:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .soccer-team-vr {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .soccer-team-vr:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .the-grid {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-grid.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .the-grid:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .from-up-above-vr {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .from-up-above-vr:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .pocket-borealis {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .pocket-borealis:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .the-curiosity {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-curiosity.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .the-curiosity:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .make-it-fisheye {
+        background-image: url(/Projects/loopstudios-landing-page-main/images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        padding-left: 2.5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        letter-spacing: 0rem;
+        text-align: start;
+    }
+    
+    .make-it-fisheye:hover {
+        opacity: 0.5;
+        transition-duration: 350ms;
+        cursor: pointer;
+        color: black;
+    }
+    
+    /* Our Creations Ends */
+
+    footer {
+        text-align: center;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .bottom {
+        display: block;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-2 {
+        display: inline-flex;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    img.desktop {
+        display: none;
+    }
+
+    img.mobile {
+        display: block;
+        width: 350px;
+    }
+
+    ul.bottom {
+        display: block;
+    }
+
+    ul.sidebar {
+        width: 100%;
+    }
+
+    li {
+        margin-bottom: 1.5rem;
+    }
+
+    li.mobile {
+        margin-bottom: 1rem;
+        margin-left: -1.2rem;
+    }
+
+    li.menu-btn {
+        display: block;
+    }
+
+    h2 {
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+    }
+
+    h2.mobile {
+        font-size: 3rem;
+        margin-bottom: 10rem;
+        }
+
+    h2.creation {
+        font-weight: 400;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    a.title {
+        font-size: 2rem;
+    }
+
+    a.btn {
+        display: none;
+    }
+
+    a.btn-2 {
+        display: block;
+        font-weight: 500;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border: 1.5px black solid;
+        padding: 0.3rem 2.5rem;
+        letter-spacing: 2px;
+    }
+    
+    a.btn-2:hover {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 1.5px black solid;
+        transition-duration: 350ms;
+    }
+
+    img.hamburger {
+        display: flex;
+    }
+}
